@@ -1,3 +1,7 @@
+/*
+Vehicle class extending Cars class with main method and
+same method as in Cars where oerloadin concept explained
+ **/
 public class Vehicle extends Cars {
 
     Vehicle(String carname, String brand, String color, double price, int extracharge)
