@@ -1,9 +1,14 @@
+/*
+*Counter class
+* with static variable once memory get allocated each time object created,
+the values is retained and count increased from there
+  **/
 public class Counter {
-    /*with static variable once memory get allocated each time object created,the values is retained and count increased from there*/
-    static int c=0;
+
+    static int number=0;
     Counter(){
-        c++;
-        System.out.println(c);
+        number++;
+        System.out.println(number);
     }
     public static void main(String args[]){
         Counter c1=new Counter();
