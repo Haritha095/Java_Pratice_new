@@ -1,25 +1,28 @@
+/*
+Project class used to show conversion of primitive type to wrapper class and viceversa
+ * */
 public class Project {
     public static void main (String args[])
     {
         int age=24;
         System.out.println("print it"+"\n"+age);
-        /*Wrapper class*/
-        Integer val= 929;
-            Character ch= 'b';
-            System.out.println(val);
-            System.out.println(ch);
-            /*using to string method*/
+       
+        Integer value= 929;
+            Character letter= 'b';
+            System.out.println(value);
+            System.out.println(letter);
+           
         Integer years=9875;
         String str=years.toString();
-        System.out.println("length is"+"\t"+ str.length());//as it has been to string,length can be found out
+        System.out.println("length is"+"\t"+ str.length());
         /*Autoboxing*/
         int time=90;
-        Integer obj=Integer.valueOf(time);/*creating a wrapping object*/
+        Integer obj=Integer.valueOf(time);
         System.out.println(time + "object:"+ obj);
         /*Unboxing*/
-        Integer time_1= new Integer(90);//converting a wrapper class back to primitive type
-        int num=time_1.intValue();
-        System.out.println(num +" "+time_1);
+        Integer time_1= new Integer(90);
+        int number=time_1.intValue();
+        System.out.println(number +" "+time_1);
     }
 }
 
