@@ -1,3 +1,6 @@
+/*
+*Cars class used to show the new price of a car with inheritance concept
+* */
 public class Cars {
     String carname, brand;
     int carid;
@@ -15,7 +18,9 @@ public class Cars {
         carid = id++;
 
     }
-
+/*
+finalCostPrice method to calculate the finalcost of the car
+ */
     protected void finalCostPrice(int price, int extracharge)
     {
         double gst = 85000;
@@ -26,5 +31,3 @@ public class Cars {
 
     }
 }
-
-
