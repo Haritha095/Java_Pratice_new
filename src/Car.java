@@ -3,7 +3,7 @@
 Final keyword in variable-whose value cannot be changed further,
 in method then cannot be overriden,in class cannot be extendedy
 * */
-/*public class Car{
+public class Car{
     final int limit=350;
    void run()
     {
@@ -13,5 +13,5 @@ in method then cannot be overriden,in class cannot be extendedy
     {
         Car cr=new Car();
         cr.run();
-    }}*/
+    }}
 
