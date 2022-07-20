@@ -1,20 +1,15 @@
-/*
-Student class used to show the grading of the student with if else statement and a static
-block just used which is called only once
-* static int id being initialised with one and incremented accordingly
- **/
-
-
+/**
+ * Student class used to show the grading of the student with if else statement and a static
+ * block just used which is called only once static int id being initialised with one and incremented accordingly
+ */
 public class Student {
     static
     {
         System.out.println("Please find the student's result at the bottom");
     }
-    String name;
-    int rollno;
-    int mark;
-
-
+    private String name;
+    private int rollno;
+    private int mark;
     static int id=1;
     Student(String name,int mark)
     {
@@ -22,7 +17,6 @@ public class Student {
     this.mark=mark;
     rollno=id++;
     }
-
     public void display()
     {
         System.out.println("The details as follow:"+"\nName "+name+"\nRoll no:"+rollno+"\nMark:"+mark);

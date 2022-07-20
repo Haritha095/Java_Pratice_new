@@ -1,9 +1,7 @@
-/*
-*Car
-Final keyword in variable-whose value cannot be changed further,
-in method then cannot be overriden,in class cannot be extendedy
-* */
-public class Car{
+/**
+ * Car class to show the function of Final keyword
+ */
+/**public class Car{
     final int limit=350;
    void run()
     {
@@ -14,4 +12,5 @@ public class Car{
         Car cr=new Car();
         cr.run();
     }}
+ */
 

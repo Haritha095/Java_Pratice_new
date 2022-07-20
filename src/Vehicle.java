@@ -1,7 +1,6 @@
-/*
-Vehicle class extending Cars class with main method and
-same method as in Cars where oerloadin concept explained
- **/
+/**
+ * Vehicle class extending Cars class where overloading concept explained
+ */
 public class Vehicle extends Cars {
 
     Vehicle(String carname, String brand, String color, double price, int extracharge)
@@ -11,14 +10,14 @@ public class Vehicle extends Cars {
     protected void finalCostPrice(int price)
     {
         double sum=price+85000;
-        int sumnew=(int)sum;
-        System.out.println("Final amount you have to pay"+sumnew);
+        int sumNew=(int)sum;
+        System.out.println("Final amount you have to pay"+sumNew);
 
     }
     public static void main(String args[])
     {
-        Vehicle obj=new Vehicle("Sonet","Kia","Red",1300000,7000);
-        obj.finalCostPrice(1300000,7000);
+        Vehicle vehicle1=new Vehicle("Sonet","Kia","Red",1300000,7000);
+        vehicle1.finalCostPrice(1300000,7000);
 
     }
 }

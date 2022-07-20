@@ -1,7 +1,6 @@
-/*
-Child method inherits Payslip method and have methods one of which actually been overrides parent method
-
-* */
+/**
+ * Child method inherits Payslip method and have methods one of which actually overrides parent method
+ */
 public class Child extends Payslip {
       public void thought()
     {
@@ -10,7 +9,6 @@ public class Child extends Payslip {
     Child(int dummynumber1,int dummynumber2)
     {
         super(dummynumber1,dummynumber2);
-
 
     }
     public void prize()

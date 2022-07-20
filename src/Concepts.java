@@ -3,8 +3,8 @@ Concepts class used to show the type casting part and some of the string functio
  **/
 public class Concepts {
 
-    /*
-    typeCast method used to show implicit and explicit type conversions
+    /**
+     * typeCast method used to show implicit and explicit type conversions
      */
     public void typeCast()
     {
@@ -28,10 +28,9 @@ System.out.println("int "+number1+" byte "+number3);
         number3=(byte) number2;//double to byte
  System.out.println("Double :"+number2+"Byte : "+number3);
     }
-    /*
-    stringFunction method to show diferent ways of
-    String object creation
-    * */
+    /**
+     * stringFunction method to show diferent ways of String object creation
+     */
    public void stringFunction()
    {
        String name="hari";
@@ -55,8 +54,8 @@ System.out.println("int "+number1+" byte "+number3);
        System.out.println(s_5);
 
    }
-   /*
-   stringMethod used to show some basic inbuilt string methods and
+   /**
+    * stringMethod used to show some basic inbuilt string methods and
     */
    public void stringMethod()
    {
@@ -91,11 +90,11 @@ System.out.println("int "+number1+" byte "+number3);
    }
     public static void main(String args[])
     {
-        Concepts obj=new Concepts();
-         obj.typeCast();
-        Concepts oj=new Concepts();
-        oj.stringFunction();
-        oj.stringMethod();
+        Concepts stringConcept=new Concepts();
+        stringConcept.typeCast();
+        Concepts concept=new Concepts();
+        concept.stringFunction();
+        concept.stringMethod();
 
     }
 }

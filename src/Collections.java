@@ -1,7 +1,7 @@
 import java.util.*;
-/*
-Collections is a class used here to show the functionalities of array and arraylist
- * */
+/**
+ * Collections is a class used here to show the functionalities of array and arraylist
+*/
 public class Collections
 {
  public void array1() {
@@ -22,24 +22,24 @@ public class Collections
         }
         System.out.println("4th index vale:" +arr[4]);
     }
-    /*
-    arraylist method used to show the creation of arraylist and adding values to it and
-    traversing through the arraylist using iterator which is iterator ,checking till itr has next
+    /**
+     *  arraylist method used to show the creation of arraylist and adding values to it and
+     *  traversing through the arraylist using iterator
      */
 public void arrayList()
 {
-    ArrayList<String> lst =new ArrayList<String>();
-    lst.add("hari");
-    lst.add("arjun");
-    lst.add("aji");
-    Iterator itr=lst.iterator();
+    ArrayList<String> list =new ArrayList<String>();
+    list.add("hari");
+    list.add("arjun");
+    list.add("aji");
+    Iterator itr=list.iterator();
     while(itr.hasNext())
     {
         System.out.println(itr.next());//printing through the itr and moving
     }
 }
-/*
-arraList2 created another method used to get the element with indesx number
+/**
+ * arraList2 created another method used to get the element with index number
  **/
 public void arrayList2()
 {
@@ -56,13 +56,13 @@ public void arrayList2()
 }
 
     public static void main(String args[]) {
-Collections obj=new Collections();
-obj.array1();
-Collections obj1=new Collections();
-obj1.array2();
-Collections obj3=new Collections();
-obj3.arrayList();
-Collections obj4=new Collections();
-obj4.arrayList2();
+Collections collection2=new Collections();
+        collection2.array1();
+Collections collection3=new Collections();
+        collection3.array2();
+Collections collection4=new Collections();
+        collection4.arrayList();
+Collections collection5=new Collections();
+collection5.arrayList2();
 
     }}

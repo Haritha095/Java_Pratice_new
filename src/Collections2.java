@@ -1,11 +1,11 @@
 import java.util.*;
-/*
-Collection class used to show method to show hashMap,hashset creation
- **/
+/**
+ *Collection class used to show method to show hashMap,hashset creation
+ */
 class Collection {
-    /*
-    hashMap method to show how to create hashmap,adding values and keys and iterating.
-    duplicate keys allowed here but won't be printed
+    /**
+     * hashMap method to show how to create hashmap,adding values and keys and iterating.
+     * duplicate keys allowed here but won't be printed
      */
     public void hashMap()
     {
@@ -41,8 +41,8 @@ class Collection {
 
 
     }
-    /*
-    hashset method used to create hashset ,added values to it and no duplicate elements here,won't be displayed
+    /**
+     * hashset method used to create hashset ,added values to it and no duplicate elements here,won't be displayed
      **/
     public void hashSet()
     {
@@ -61,9 +61,9 @@ class Collection {
     }
     public static void main(String args[])
     {
-        Collection o1=new Collection();
-        o1.hashMap();
-        Collection o2=new Collection();
-        o2.hashSet();
+        Collection collection1=new Collection();
+        collection1.hashMap();
+        Collection collection2=new Collection();
+        collection2.hashSet();
     }
 }

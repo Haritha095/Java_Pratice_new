@@ -1,25 +1,23 @@
-/*
-Payslip is the class with three methods with same name with different
-argument and type passed to show overloading
-*dummy_number1 and dummy_number2 are just variables used to display use of inbuilt methods
-* */
+/**
+ * Payslip is the class with three methods with same name but with different argument and type passed to show overloading
+ */
 public class Payslip {
     int dummy_number1=2;
-    int dummy_number2=8;
+    int dummy_number2=4;
     public void salary(int basic,int variable )
     {
-        int netsalary=basic+variable;
-        System.out.println(netsalary);
+        int netSalary=basic+variable;
+        System.out.println(netSalary);
     }
     public void salary(int basic,int variable,int fixed)
     {
-        int netsalary=basic+variable+fixed;
-        System.out.println(netsalary);
+        int netSalary=basic+variable+fixed;
+        System.out.println(netSalary);
     }
     public void salary(double basic)
     {
-        double netsalary=basic;
-        System.out.println(netsalary);
+        double netSalary=basic;
+        System.out.println(netSalary);
     }
     /*
     thought method is used to show the concept of overriridng

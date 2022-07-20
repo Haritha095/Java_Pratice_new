@@ -1,3 +1,6 @@
+/**
+ * Operators class created to show some basic operatos functionality
+ */
 class Operators {
 int number1=280;
 int number2=320;

@@ -1,10 +1,9 @@
 import java.util.Scanner;
-/*
- Factorial class to show the functionality of for loop with factorial finding program
- **/
+/**
+ * Factorial class to show the functionality of for loop with factorial finding program
+ */
 public class Factorial {
-
- public static void main(String args[])
+public static void main(String args[])
  {
  Scanner sc=new Scanner(System.in);
  System.out.println("Enter a number");

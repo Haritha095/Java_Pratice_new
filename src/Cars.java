@@ -1,33 +1,32 @@
-/*
-*Cars class used to show the new price of a car with inheritance concept
-* */
+/**
+ * Cars class used to show the new price of a car with inheritance concept
+ */
 public class Cars {
-    String carname, brand;
-    int carid;
+    String carName, brand;
+    int carId;
     double price;
     static int id = 1;
     String color;
-    int extracharge;
+    int extraCharge;
 
-    Cars(String carname, String brand, String color, double price, int extracharge) {
-        this.carname = carname;
+    Cars(String carName, String brand, String color, double price, int extraCharge) {
+        this.carName = carName;
         this.brand = brand;
         this.color = color;
         this.price = price;
-        this.extracharge = extracharge;
-        carid = id++;
+        this.extraCharge = extraCharge;
+        carId = id++;
 
     }
-/*
-finalCostPrice method to calculate the finalcost of the car
+/**
+ * finalCostPrice method to calculate the finalcost of the car
  */
-    protected void finalCostPrice(int price, int extracharge)
+    protected void finalCostPrice(int price, int extraCharge)
     {
         double gst = 85000;
-        double sum = price + extracharge + gst;
+        double sum = price + extraCharge + gst;
         int sumnew = (int) sum;
         System.out.println("Final cost for this brandnew Car: " + sum);
         System.out.println("You have to just pay: "+sumnew);
-
     }
 }

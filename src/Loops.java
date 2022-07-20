@@ -1,23 +1,26 @@
 import java.util.Scanner;
-/*
-Loops class used to show the function of switch statement with dummyvariables
- **/
+/**
+ * Loops class used to show the function of switch statement and static method
+*/
 public class Loops {
-static int dummynumber1=100;
-static int dummynumber2=40;
+static int dummyNumber1=100;
+static int dummyNumber2=40;
 public static void option()
 {
 Scanner obj=new Scanner(System.in);
 System.out.println("Enter operation");
 String m=obj.nextLine();
     switch (m) {
-        case "ADD" -> System.out.println(dummynumber1 + dummynumber2);
-        case "SUBTRACT" -> System.out.println(dummynumber1 - dummynumber2);
-        case "MULTIPLY" -> System.out.println(dummynumber1 * dummynumber2);
-        case "DIVIDE" -> System.out.println(dummynumber1 / dummynumber2);
+        case "ADD" -> System.out.println(dummyNumber1 + dummyNumber2);
+        case "SUBTRACT" -> System.out.println(dummyNumber1 - dummyNumber2);
+        case "MULTIPLY" -> System.out.println(dummyNumber1 * dummyNumber2);
+        case "DIVIDE" -> System.out.println(dummyNumber1 / dummyNumber2);
         default -> System.out.println("Type error");
     }
 }
+/**
+ * number() a static method to check if the number is odd or even
+ */
 public static void  number()
 {
     for(int i=0;i<=10;i++){

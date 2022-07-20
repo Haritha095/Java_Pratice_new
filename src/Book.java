@@ -1,8 +1,8 @@
 import java.util.*;
 import java.util.concurrent.PriorityBlockingQueue;
-/*
-Book class with details for some books created using arraylist,linkedlist,hashmap to get the concepts
-* */
+/**
+ * Book class with details for some books created using arraylist,linkedlist,hashmap to get the concepts
+ */
 public class Book {
     int id;
     String author,name;
@@ -14,9 +14,9 @@ public class Book {
         this.quantity = quantity;
         id = num++;
     }
-    /*
-    arraList method to show arraylist adding and removing elements functionalities,
-    removal based on index number
+    /**
+    *arraList method to show arraylist adding and removing elements functionalities,
+    *removal based on index number
      */
     public void arrayList()
     {
@@ -38,10 +38,8 @@ list.remove(0);
             System.out.println("Name: "+b.name+" ,Author: "+b.author+" ,Quantity: "+quantity);
         }
     }
-    /*
-    hashMap method to create a
-    hashmap and add book details
-    and here can't get the values of objects directly gets a reference
+    /**
+    *hashMap method to create a hashmap and add book detail and here can't get the values of objects directly gets a reference
      */
     public void hashMap()
     {
@@ -61,11 +59,10 @@ list.remove(0);
             }
         }
     }
-    /*
-    priorityQueue method to create a Queue ,adding values,
-    peek() is for printing top element
-    poll()-printing top element and removing it from the container
-    **/
+    /**
+   * priorityQueue method to create a Queue ,adding values,peek() is for printing top element
+   * poll()-printing top element and removing it from the container
+    */
     public void priorityQueue()
     {
         Queue<String> pq=new PriorityQueue<>();
@@ -87,10 +84,9 @@ list.remove(0);
         System.out.println(pq.poll());
         System.out.println(pq.peek());
     }
-    /*
-    priorityBlockingQueue() method - processed based on priority,thread safe alternative
-    of priority queue
-    Creating Queue adding values and removing it
+    /**
+     * priorityBlockingQueue() method - processed based on priority,thread safe alternative of priority queue
+     * Creating Queue adding values and removing it
      */
     public void priorityBlockingQueue()
     {
@@ -105,8 +101,9 @@ list.remove(0);
         System.out.println(pbq.poll());
         System.out.println(pbq.peek());
     }
-    /*
-    linkedList() method - Creating linkedlist  adding values and removing it
+
+    /**
+     *  linkedList() method - Creating linkedlist  adding values and removing it
      */
     public void linkedList()
     {
@@ -125,14 +122,14 @@ list.remove(0);
     }
     public static void main(String args[])
     {
-Book obj1=new Book("Paulo","Alchemist",4);
-     obj1.arrayList();
-        Book obj2=new Book("Paulo","Alchemist",4);
-        obj2.hashMap();
-        Book obj3=new Book("Paulo","Alchemist",4);
-        obj3.priorityQueue();
-        Book obj4=new Book("Paulo","Alchemist",4);
-        obj4.priorityBlockingQueue();
-        Book obj5=new Book("Paulo","Alchemist",4);
-        obj5.linkedList();
+Book book1=new Book("Paulo","Alchemist",4);
+        book1.arrayList();
+        Book book2=new Book("Paulo","Alchemist",4);
+        book2.hashMap();
+        Book book3=new Book("Paulo","Alchemist",4);
+        book3.priorityQueue();
+        Book book4=new Book("Paulo","Alchemist",4);
+        book4.priorityBlockingQueue();
+        Book book5=new Book("Paulo","Alchemist",4);
+        book5.linkedList();
     }}
