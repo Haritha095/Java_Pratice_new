@@ -21,12 +21,12 @@ public class Book {
     public void arrayList()
     {
         List<Book> list=new ArrayList<Book>();
-        Book b1=new Book("Paulo","Alchemist",4);
-        Book b2=new Book("Stephen covey","10 habits of successful people",8);
-        Book b3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
-        list.add(b1);
-        list.add(b2);
-        list.add(b3);
+        Book book1=new Book("Paulo","Alchemist",4);
+        Book book2=new Book("Stephen covey","10 habits of successful people",8);
+        Book book3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
+        list.add(book1);
+        list.add(book2);
+        list.add(book3);
         for(Book b:list)
         {
             System.out.println("Name: "+b.name+" ,Author: "+b.author+" ,Quantity: "+quantity);
@@ -44,12 +44,12 @@ list.remove(0);
     public void hashMap()
     {
         HashMap<Integer,Book> map=new HashMap<Integer,Book>();
-        Book b1=new Book("Paulo","Alchemist",4);
-        Book b2=new Book("Stephen covey","10 habits of successful people",8);
-        Book b3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
-        map.put(1,b1);
-        map.put(2,b2);
-        map.put(3,b3);
+        Book book1=new Book("Paulo","Alchemist",4);
+        Book book2=new Book("Stephen covey","10 habits of successful people",8);
+        Book book3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
+        map.put(1,book1);
+        map.put(2,book2);
+        map.put(3,book3);
         System.out.println("Iterating Hashmap");
         {
             for(Map.Entry<Integer,Book> m: map.entrySet())
@@ -65,24 +65,24 @@ list.remove(0);
     */
     public void priorityQueue()
     {
-        Queue<String> pq=new PriorityQueue<>();
-        pq.add("Supreme");
-        pq.add("Health");
-        pq.add("Relation");
-        pq.add("Animals");
-        pq.add("logic");
-        pq.add("Education");
-        pq.add("Job");
-        pq.add("Security");
-        pq.add("Money");
+        Queue<String> priority=new PriorityQueue<>();
+        priority.add("Supreme");
+        priority.add("Health");
+        priority.add("Relation");
+        priority.add("Animals");
+        priority.add("logic");
+        priority.add("Education");
+        priority.add("Job");
+        priority.add("Security");
+        priority.add("Money");
         System.out.println("Priority queue");
-        System.out.println(pq);
-        pq.remove("Money");
+        System.out.println(priority);
+        priority.remove("Money");
         System.out.println("After removal");
-        System.out.println(pq);
-        System.out.println(pq.peek());
-        System.out.println(pq.poll());
-        System.out.println(pq.peek());
+        System.out.println(priority);
+        System.out.println(priority.peek());
+        System.out.println(priority.poll());
+        System.out.println(priority.peek());
     }
     /**
      * priorityBlockingQueue() method - processed based on priority,thread safe alternative of priority queue
@@ -90,16 +90,16 @@ list.remove(0);
      */
     public void priorityBlockingQueue()
     {
-        Queue<Integer> pbq=new PriorityBlockingQueue<>();
-        pbq.add(2);
-        pbq.add(9);
-        pbq.add(18);
-        pbq.add(89);
+        Queue<Integer> blockingQueue=new PriorityBlockingQueue<>();
+        blockingQueue.add(2);
+        blockingQueue.add(9);
+        blockingQueue.add(18);
+        blockingQueue.add(89);
         System.out.println("Priority Blocking Queue");
-        System.out.println(pbq);
-        System.out.println(pbq.peek());
-        System.out.println(pbq.poll());
-        System.out.println(pbq.peek());
+        System.out.println(blockingQueue);
+        System.out.println(blockingQueue.peek());
+        System.out.println(blockingQueue.poll());
+        System.out.println(blockingQueue.peek());
     }
 
     /**
@@ -107,18 +107,18 @@ list.remove(0);
      */
     public void linkedList()
     {
-        Queue<Integer> lst=new LinkedList<>();
-        lst.add(2);
-        lst.add(3);
-        lst.add(5);
-        lst.add(7);
-        lst.add(11);
-        lst.add(13);
+        Queue<Integer> list=new LinkedList<>();
+        list.add(2);
+        list.add(3);
+        list.add(5);
+        list.add(7);
+        list.add(11);
+        list.add(13);
         System.out.println("Linked list");
-        System.out.println(lst);
-        System.out.println(lst.peek());
-        System.out.println(lst.poll());
-        System.out.println(lst.peek());
+        System.out.println(list);
+        System.out.println(list.peek());
+        System.out.println(list.poll());
+        System.out.println(list.peek());
     }
     public static void main(String args[])
     {
