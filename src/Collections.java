@@ -5,22 +5,21 @@ import java.util.*;
 public class Collections
 {
  public void array1() {
-        int arr[][] = {{1, 2, 3}, {2, 4, 5}, {4, 4, 5}};
+        int array1[][] = {{1, 2, 3}, {2, 4, 5}, {4, 4, 5}};
         // int[][] arr=new int[4][8];
         for (int k = 0; k< 3; k++) {
             for (int l = 0; l < 3; l++) {
-                System.out.print(arr[k][l] + " ");
+                System.out.print(array1[k][l] + " ");
             }
             System.out.println();
         }
     }
  public void array2(){
-        int arr[]={1,2,3,3,4,7};
-        for(int i=0;i<arr.length;i++)
+        int array2[]={1,2,3,3,4,7};
+        for(int i=0;i<array2.length;i++)
         {
-
         }
-        System.out.println("4th index vale:" +arr[4]);
+        System.out.println("4th index vale:" +array2[4]);
     }
     /**
      *  arraylist method used to show the creation of arraylist and adding values to it and
@@ -43,13 +42,13 @@ public void arrayList()
  **/
 public void arrayList2()
 {
-    ArrayList<String> lst1=new ArrayList<String>();
-    lst1.add("bubbles");
-    lst1.add("buttercup");
-    lst1.add("blossom");
-    System.out.println("1st element: "+lst1.get(0));
-    lst1.set(0,"powerpuff");
-    for(String girls:lst1)
+    ArrayList<String> list1=new ArrayList<>();
+    list1.add("bubbles");
+    list1.add("buttercup");
+    list1.add("blossom");
+    System.out.println("1st element: "+list1.get(0));
+    list1.set(0,"powerpuff");
+    for(String girls:list1)
     {
         System.out.println(girls);
     }

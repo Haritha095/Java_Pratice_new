@@ -6,8 +6,8 @@ public class Cars {
     int carId;
     double price;
     static int id = 1;
-    String color;
-    int extraCharge;
+    private String color;
+    private int extraCharge;
 
     Cars(String carName, String brand, String color, double price, int extraCharge) {
         this.carName = carName;
@@ -25,8 +25,8 @@ public class Cars {
     {
         double gst = 85000;
         double sum = price + extraCharge + gst;
-        int sumnew = (int) sum;
+        int sumNew = (int) sum;
         System.out.println("Final cost for this brandnew Car: " + sum);
-        System.out.println("You have to just pay: "+sumnew);
+        System.out.println("You have to just pay: "+sumNew);
     }
 }

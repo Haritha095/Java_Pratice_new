@@ -3,9 +3,9 @@
  */
 public class Vehicle extends Cars {
 
-    Vehicle(String carname, String brand, String color, double price, int extracharge)
+    Vehicle(String carname, String brand, String color, double price, int extraCharge)
     {
-        super(carname, brand, color, price, extracharge);
+        super(carname, brand, color, price, extraCharge);
     }
     protected void finalCostPrice(int price)
     {

@@ -3,13 +3,13 @@
  */
 public class Rankcard
 {
-private int marks;
-private String name;
-private int rollno;
-Rankcard(String name, int rollno, int marks, String subject )
+ private int marks;
+ String name;
+ private int rollNo;
+Rankcard(String name, int rollNo, int marks, String subject )
 {
      this.name=name;
-     this.rollno=rollno;
+     this.rollNo=rollNo;
      this.marks=marks;
 }
 /**

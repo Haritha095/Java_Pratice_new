@@ -4,9 +4,9 @@ import java.util.concurrent.PriorityBlockingQueue;
  * Book class with details for some books created using arraylist,linkedlist,hashmap to get the concepts
  */
 public class Book {
-    int id;
-    String author,name;
-    int quantity;
+    private int id;
+    private String author,name;
+    private int quantity;
     static int num=1;
     Book(String author,String name,int quantity) {
         this.author = author;
@@ -20,7 +20,7 @@ public class Book {
      */
     public void arrayList()
     {
-        List<Book> list=new ArrayList<Book>();
+        List<Book> list=new ArrayList<>();
         Book book1=new Book("Paulo","Alchemist",4);
         Book book2=new Book("Stephen covey","10 habits of successful people",8);
         Book book3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
@@ -43,7 +43,7 @@ list.remove(0);
      */
     public void hashMap()
     {
-        HashMap<Integer,Book> map=new HashMap<Integer,Book>();
+        HashMap<Integer,Book> map=new HashMap<>();
         Book book1=new Book("Paulo","Alchemist",4);
         Book book2=new Book("Stephen covey","10 habits of successful people",8);
         Book book3=new Book("Stephen Hawkings","The Universe in a nutshell",8);
@@ -120,9 +120,9 @@ list.remove(0);
         System.out.println(list.poll());
         System.out.println(list.peek());
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-Book book1=new Book("Paulo","Alchemist",4);
+        Book book1=new Book("Paulo","Alchemist",4);
         book1.arrayList();
         Book book2=new Book("Paulo","Alchemist",4);
         book2.hashMap();

@@ -9,32 +9,32 @@ class Collection {
      */
     public void hashMap()
     {
-        HashMap<Integer,String> m1=new HashMap<Integer,String>();
-        m1.put(2,"student");
-        m1.put(4,"teacher");
-        m1.put(6,"Universe");
-        m1.put(8,"Potential");
-        m1.put(8,"Potential");
+        HashMap<Integer,String> map=new HashMap<Integer,String>();
+        map.put(2,"student");
+        map.put(4,"teacher");
+        map.put(6,"Universe");
+        map.put(8,"Potential");
+        map.put(8,"Potential");
         System.out.println("Iteration through");
-        for(Map.Entry m:m1.entrySet())
+        for(Map.Entry m:map.entrySet())
         {
             System.out.println(m.getKey()+""+m.getValue());
         }
-        m1.putIfAbsent(10,"Hope");
+        map.putIfAbsent(10,"Hope");
         System.out.println("Printing after put statement");
-        for(Map.Entry m:m1.entrySet())
+        for(Map.Entry m:map.entrySet())
         {
             System.out.println(m.getKey()+""+m.getValue());
         }
-        m1.remove(2);
+        map.remove(2);
         System.out.println("after removal");
-        for(Map.Entry m:m1.entrySet())
+        for(Map.Entry m:map.entrySet())
         {
             System.out.println(m.getKey()+""+m.getValue());
         }
-        m1.replace(4,"teacher","doctor");
+        map.replace(4,"teacher","doctor");
         System.out.println("After replacement");
-        for(Map.Entry m:m1.entrySet())
+        for(Map.Entry m:map.entrySet())
         {
             System.out.println(m.getKey()+""+m.getValue());
         }
@@ -46,12 +46,12 @@ class Collection {
      **/
     public void hashSet()
     {
-        HashSet<String> hs=new HashSet<String>();
-        hs.add("Hari");
-        hs.add("Mittu");//adding elements
-        hs.add("luttu");
-        hs.add("luttu");
-        Iterator<String> itr=hs.iterator();
+        HashSet<String> set=new HashSet<String>();
+        set.add("Hari");
+        set.add("Mittu");//adding elements
+        set.add("luttu");
+        set.add("luttu");
+        Iterator<String> itr=set.iterator();
         while(itr.hasNext())
         {
             System.out.println(itr.next());
