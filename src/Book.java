@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.PriorityBlockingQueue;
 /**
- * Book class with details for some books created using arraylist,linkedlist,hashmap to get the concepts
+ * Book class with details for some books created using arraylist,linkedList,hashmap to get the concepts
  */
 public class Book {
     private int id;
@@ -15,7 +15,7 @@ public class Book {
         id = num++;
     }
     /**
-    *arraList method to show arraylist adding and removing elements functionalities,
+    *arrayList method to show arraylist adding and removing elements functionalities,
     *removal based on index number
      */
     public void arrayList()
@@ -103,7 +103,7 @@ list.remove(0);
     }
 
     /**
-     *  linkedList() method - Creating linkedlist  adding values and removing it
+     *  linkedList() method - Creating linkedList  adding values and removing it
      */
     public void linkedList()
     {

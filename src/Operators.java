@@ -1,5 +1,5 @@
 /**
- * Operators class created to show some basic operatos functionality
+ * Operators class created to show some basic operators functionality
  */
 class Operators {
 int number1=280;

@@ -4,11 +4,12 @@
 public class Child extends Payslip {
       public void thought()
     {
+
         System.out.println("Grateful and Thankful for everything");
     }
-    Child(int dummynumber1,int dummynumber2)
+    Child(int dummyNumber1,int dummyNumber2)
     {
-        super(dummynumber1,dummynumber2);
+        super(dummyNumber1,dummyNumber2);
 
     }
     public void prize()

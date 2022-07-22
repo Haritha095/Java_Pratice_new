@@ -1,5 +1,5 @@
 /**
- * Employee Class and as the the company field is common to any static field  used and displayed the details
+ * Employee Class and as the company field is common to any static field  used and displayed the details
 */
  public class Employee {
     String name;

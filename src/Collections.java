@@ -38,7 +38,7 @@ public void arrayList()
     }
 }
 /**
- * arraList2 created another method used to get the element with index number
+ * arrayList2 created another method used to get the element with index number
  **/
 public void arrayList2()
 {
@@ -47,7 +47,7 @@ public void arrayList2()
     list1.add("buttercup");
     list1.add("blossom");
     System.out.println("1st element: "+list1.get(0));
-    list1.set(0,"powerpuff");
+    list1.set(0,"PowerPuff");
     for(String girls:list1)
     {
         System.out.println(girls);

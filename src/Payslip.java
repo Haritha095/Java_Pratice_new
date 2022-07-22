@@ -20,7 +20,7 @@ public class Payslip {
         System.out.println(netSalary);
     }
     /*
-    thought method is used to show the concept of overriridng
+    thought method is used to show the concept of overridding
      */
     public void thought()
     {

@@ -1,5 +1,5 @@
 /**
- * Project class used to show conversion of primitive type to wrapper class and viceversa
+ * Project class used to show conversion of primitive type to wrapper class and vice versa
  */
 public class Project {
     public static void main (String args[])

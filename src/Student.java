@@ -8,18 +8,18 @@ public class Student {
         System.out.println("Please find the student's result at the bottom");
     }
     private String name;
-    private int rollno;
+    private int rollNo;
     private int mark;
     static int id=1;
     Student(String name,int mark)
     {
     this.name=name;
     this.mark=mark;
-    rollno=id++;
+    rollNo=id++;
     }
     public void display()
     {
-        System.out.println("The details as follow:"+"\nName "+name+"\nRoll no:"+rollno+"\nMark:"+mark);
+        System.out.println("The details as follow:"+"\nName "+name+"\nRoll no:"+rollNo+"\nMark:"+mark);
     }
     public void result()
     {

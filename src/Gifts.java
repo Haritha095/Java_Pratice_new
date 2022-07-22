@@ -10,12 +10,12 @@ public static void main(String args[])
    
   int student[] = {67, 78, 67, 89, 0 };
   int sweet[] = {34, 78, 121, 78, 44};
-  int[] numberofsweet = new int[5];
+  int[] numberOfSweet = new int[5];
   try
   {
     for (int i = 0; i < 5; i++)
     {
-        numberofsweet[i] = sweet[i] / student[i];
+        numberOfSweet[i] = sweet[i] / student[i];
      }
      }
      catch (ArithmeticException error) 

@@ -1,5 +1,5 @@
 /**
- * ExampleOnThread is a class that implements Runnable interface used to show multithreading and ovverride run() method
+ * ExampleOnThread is a class that implements Runnable interface used to show multithreading and override run() method
 */
 public class ExampleOnThread implements Runnable
 {
@@ -15,7 +15,7 @@ public class ExampleOnThread implements Runnable
             System.out.println("Caught Exception");
         }}
     /**
-     *  In the main method run() method being called with start() obj is the object instantitated thread object
+     *  In the main method run() method being called with start() obj is the object instantiated thread object
      */
     public static void main (String args[])
     {
